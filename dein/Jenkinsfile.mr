@@ -1,0 +1,107 @@
+pipeline {
+    agent any
+    triggers {
+        gitlab(
+            triggerOnPush: false,
+            triggerOnMergeRequest: true,
+            triggerOnAcceptedMergeRequest: true,
+            triggerOnClosedMergeRequest: false,
+            triggerOpenMergeRequestOnPush: 'both',
+            triggerOnApprovedMergeRequest: true,
+            triggerOnNoteRequest: true,
+            noteRegex: "Jenkins please retry a build",
+            ciSkip: true,
+            skipWorkInProgressMergeRequest: true,
+            setBuildDescription: true,
+            branchFilterType: 'All'
+        )
+    }
+    environment {
+        REQ_ACTIVATE = 'true'
+        SONAR_HOME = tool 'sonar-scanner'
+        SONAR_OPTS = "${'-Dsonar.branch.name='+env.gitlabSourceBranch+' -Dsonar.branch.target=master'}"
+        DOCKER_CREDS = credentials('continuum')
+        CONTINUUM_CREDS = credentials('continuum')
+        CONTINUUM_JELASTIC = credentials('continuum-jelastic')
+    }
+    options {
+        buildDiscarder(logRotator(numToKeepStr:'10'))
+        disableConcurrentBuilds()
+        timestamps()
+    }
+    stages {
+        stage('prepare') {
+            steps {
+                echo "From Branch: ${env.gitlabSourceBranch}"
+                enableFullGitlabMergeRequest()
+            }
+        }
+        stage('build') {
+            steps {
+                withGitlabNotification() {
+                    sh 'make build'
+                }
+            }
+        }
+        stage('test') {
+            steps {
+                withGitlabNotification() {
+                    sh 'make test'
+                }
+            }
+        }
+        stage('qa') {
+            steps {
+                withGitlabNotification() {
+                    withSonarQubeEnv('dev-qa') {
+                        sh 'make qa'
+                    }
+                }
+            }
+        }
+        stage('qa-gate') {
+            steps {
+                withGitlabNotification() {
+                    timeout(time: 30, unit: 'MINUTES') {
+                        script {
+                            def qg = waitForQualityGate()
+                            if (qg.status != 'OK') {
+                                currentBuild.result = 'FAILED'
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    post {
+        always {
+            echo 'Cleaning up our workspace'
+            deleteDir()
+            echo 'Sending notification by email'
+            script {
+				if ( "${currentBuild.currentResult}" == "SUCCESS" ) {
+					MESSAGE = 'Everything is OK'
+				} else if ( "${currentBuild.currentResult}" == "UNSTABLE" ) {
+					MESSAGE = 'I am unstable ¯\\_(ツ)_/¯'
+				} else if ( "${currentBuild.currentResult}" == "FAILURE" ) {
+					MESSAGE = 'I failed :('
+				} else {
+					MESSAGE = '${currentBuild.currentResult}'
+				}
+			}
+			emailext subject: "${currentBuild.currentResult}: Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]. ${MESSAGE}",
+				body: "<p>${currentBuild.currentResult}: Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]:</p><p>Check console output at &QUOT;<a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>&QUOT;</p>",
+				recipientProviders: [requestor()], mimeType: 'text/html'
+        }
+        success {
+            echo 'Everything is OK'
+        }
+        unstable {
+            echo 'I am unstable ¯\\_(ツ)_/¯'
+        }
+        failure {
+            echo 'I failed :('
+        }
+    }
+}

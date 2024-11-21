@@ -1,0 +1,156 @@
+pipeline {
+    agent any
+    environment {
+        REQ_ACTIVATE = 'true'
+        RELEASE_FROM_BRANCH = 'develop'
+        SONAR_HOME = tool 'sonar-scanner'
+        SONAR_OPTS = "${'-Dsonar.branch.name=releases -Dsonar.branch.target=master'}"
+        DOCKER_CREDS = credentials('continuum')
+        CONTINUUM_CREDS = credentials('continuum')
+        CONTINUUM_JELASTIC = credentials('continuum-jelastic')
+    }
+    options {
+        buildDiscarder(logRotator(numToKeepStr:'5'))
+        disableConcurrentBuilds()
+        timestamps()
+    }
+    parameters {
+        choice(name: 'RELEASE_STEP', choices: ['start-finish','start','finish','reload-pipeline'], description: 'Release step')
+        booleanParam(name: 'MAJOR_RELEASE', defaultValue: false, description: 'Only for start steps. Increase MAJOR version for next release?')
+    }
+    stages {
+        stage('prepare-pipeline') {
+            steps {
+                sshagent (credentials: ['git-ssh-key']) {
+                    sh "git checkout ${RELEASE_FROM_BRANCH}"
+                    sh 'git remote prune origin'
+                    sh 'git fetch --prune origin +refs/tags/*:refs/tags/*'
+                    sh 'git fetch'
+                    sh 'git checkout master'
+                    sh 'git reset --hard origin/master'
+                    sh 'git checkout develop'
+                    sh 'git reset --hard origin/develop'
+                }
+                sh 'git branch -vv | grep \'origin/.*: gone]\' | awk \'{print $1}\' | xargs -r git branch -D'
+            }
+        }
+        stage('release-start') {
+            when {
+                expression { params.RELEASE_STEP.contains("start") }
+            }
+            steps {
+                script{
+                    env.POM_VERSION = sh(returnStdout: true, script: 'make version').trim()
+                    env.RELEASE_VERSION = sh(returnStdout: true, script: 'echo ${POM_VERSION} | awk -F\'-\' \'{print \$1}\' ').trim()
+                    env.MAJOR = sh(returnStdout: true, script: 'echo ${RELEASE_VERSION} | awk -F\'.\' \'{print \$1}\' ').trim()
+                    env.MINOR = sh(returnStdout: true, script: 'echo ${RELEASE_VERSION} | awk -F\'.\' \'{print \$2}\' ').trim()
+                    env.PATCH = sh(returnStdout: true, script: 'echo ${RELEASE_VERSION} | awk -F\'.\' \'{print \$3}\' ').trim()
+                    env.RELEASE_VERSION = sh(returnStdout: true, script: 'echo ${MAJOR}.${MINOR}.${PATCH}')
+                    if ( params.MAJOR_RELEASE == false ){
+                        env.DEVELOP_MINOR = sh(returnStdout: true, script: 'echo $(expr $MINOR + 1) ').trim()
+                        env.RELEASE_DEVELOP_VERSION = sh(returnStdout: true, script: 'echo ${MAJOR}.${DEVELOP_MINOR}.0.dev')
+                    }else{
+                        env.DEVELOP_MAJOR = sh(returnStdout: true, script: 'echo $(expr $MAJOR + 1) ').trim()
+                        env.RELEASE_DEVELOP_VERSION = sh(returnStdout: true, script: 'echo ${DEVELOP_MAJOR}.0.0.dev')
+                    }
+                }
+                sh 'echo Auto-generated RELEASE_VERSION = $RELEASE_VERSION'
+                sh 'echo Auto-generated RELEASE_DEVELOP_VERSION = $RELEASE_DEVELOP_VERSION'
+                sshagent (credentials: ['git-ssh-key']) {
+                    sh 'make release-start RELEASE_VERSION=${RELEASE_VERSION} RELEASE_DEVELOP_VERSION=${RELEASE_DEVELOP_VERSION}'
+                }
+            }
+        }
+        stage('checkout-release'){
+            when {
+                expression { params.RELEASE_STEP.contains("finish") }
+            }
+            steps {
+                sshagent (credentials: ['git-ssh-key']) {
+                    script {
+                        BRANCH_RELEASE = sh returnStdout: true, script: 'git for-each-ref --format="%(refname:short)" refs/remotes/origin/release | cut -d "/" -f 2,3 | tail -1'
+                    }
+                    sh "git checkout ${BRANCH_RELEASE}"
+                    sh "git reset --hard origin/${BRANCH_RELEASE}"
+                }
+            }
+        }
+        stage('build') {
+            when {
+                expression { params.RELEASE_STEP.contains("finish") }
+            }
+            steps {
+                sh 'make build'
+            }
+        }
+        stage('test') {
+            when {
+                expression { params.RELEASE_STEP.contains("finish") }
+            }
+            steps {
+                sh 'make test'
+            }
+        }
+        stage('qa') {
+            when {
+                expression { params.RELEASE_STEP.contains("finish") }
+            }
+            steps {
+                withSonarQubeEnv('dev-qa') {
+                    sh 'make qa'
+                }
+            }
+        }
+        stage('qa-gate') {
+            when {
+                expression { params.RELEASE_STEP.contains("finish") && env.QA_GATE != 'false' }
+            }
+            steps {
+                echo 'Waiting for Sonar Quality Gate'
+                timeout(time: 30, unit: 'MINUTES') {
+                    waitForQualityGate abortPipeline: true
+                }
+            }
+        }
+        stage('release-finish') {
+            when {
+                expression { params.RELEASE_STEP.contains("finish") }
+            }
+            steps {
+                sshagent (credentials: ['git-ssh-key']) {
+                    sh 'make release-finish'
+                }
+            }
+        }
+    }
+    post {
+        always {
+            echo 'Cleaning up our workspace'
+            deleteDir()
+            echo 'Sending notification by email'
+            script {
+				if ( "${currentBuild.currentResult}" == "SUCCESS" ) {
+					MESSAGE = 'Everything is OK'
+				} else if ( "${currentBuild.currentResult}" == "UNSTABLE" ) {
+					MESSAGE = 'I am unstable ¯\\_(ツ)_/¯'
+				} else if ( "${currentBuild.currentResult}" == "FAILURE" ) {
+					MESSAGE = 'I failed :('
+				} else {
+					MESSAGE = '${currentBuild.currentResult}'
+				}
+			}
+			emailext subject: "${currentBuild.currentResult}: Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]. ${MESSAGE}",
+				body: "<p>${currentBuild.currentResult}: Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]:</p><p>Check console output at &QUOT;<a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>&QUOT;</p>",
+				recipientProviders: [requestor()], mimeType: 'text/html'
+        }
+        success {
+            echo 'Everything is OK'
+        }
+        unstable {
+            echo 'I am unstable ¯\\_(ツ)_/¯'
+        }
+        failure {
+            echo 'I failed :('
+        }
+    }
+}

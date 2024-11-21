@@ -1,0 +1,77 @@
+pipeline {
+    agent any
+    triggers {
+        upstream(upstreamProjects: "gmv-bda/upm/inesdata-mov/ai-service-ui/ai-service-ui_ci/"  + env.BRANCH_NAME.replaceAll("/", "%2F"), threshold: hudson.model.Result.SUCCESS)
+    }
+    environment {
+        REQ_ACTIVATE = 'true'
+        DOCKER_CREDS = credentials('continuum')
+        CONTINUUM_CREDS = credentials('continuum')
+        CONTINUUM_JELASTIC = credentials('continuum-jelastic')
+    }
+    options {
+        buildDiscarder(logRotator(numToKeepStr:'10'))
+        disableConcurrentBuilds()
+        timestamps()
+    }
+    stages {
+        stage('prepare') {
+
+        when {
+                anyOf { branch 'develop'; branch 'master' }
+            }
+            steps {
+				script {
+					def upstreamCause = currentBuild.rawBuild.getCause(hudson.model.Cause$UpstreamCause)
+					def upstreamBuild = Jenkins.instance.getItemByFullName(upstreamCause?.upstreamProject).getBuildByNumber(upstreamCause?.upstreamBuild)
+					def upstreamEnv = upstreamBuild.getAction(org.jenkinsci.plugins.workflow.cps.EnvActionImpl).getEnvironment()
+					PARENT_ENV = upstreamEnv
+				}
+				echo "----------------------------------------------------------------------------"
+                echo "PARENT ENVIRONMENT: ${PARENT_ENV}"
+				echo "PARENT JOB_NAME: ${PARENT_ENV.JOB_NAME}"
+				echo "PARENT JOB_BASE_NAME: ${PARENT_ENV.JOB_BASE_NAME}"
+				echo "PARENT BUILD: ${PARENT_ENV.BUILD_ID}"
+				echo "----------------------------------------------------------------------------"
+			}
+		}
+        stage('deploy') {
+            when {
+                anyOf { branch 'develop'; branch 'master' }
+            }
+            steps {
+                sh "make deploy BRANCH_NAME=${env.BRANCH_NAME}"
+            }
+        }
+    }
+    post {
+        always {
+            echo 'Cleaning up our workspace'
+            deleteDir()
+            echo 'Sending notification by email'
+            script {
+				if ( "${currentBuild.currentResult}" == "SUCCESS" ) {
+					MESSAGE = 'Everything is OK'
+				} else if ( "${currentBuild.currentResult}" == "UNSTABLE" ) {
+					MESSAGE = 'I am unstable ¯\\_(ツ)_/¯'
+				} else if ( "${currentBuild.currentResult}" == "FAILURE" ) {
+					MESSAGE = 'I failed :('
+				} else {
+					MESSAGE = '${currentBuild.currentResult}'
+				}
+			}
+			emailext subject: "${currentBuild.currentResult}: Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]. ${MESSAGE}",
+				body: "<p>${currentBuild.currentResult}: Job ${env.JOB_NAME} [${env.BUILD_NUMBER}]:</p><p>Check console output at &QUOT;<a href='${env.BUILD_URL}'>${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>&QUOT;</p>",
+				recipientProviders: [requestor()], mimeType: 'text/html'
+        }
+        success {
+            echo 'Everything is OK'
+        }
+        unstable {
+            echo 'I am unstable ¯\\_(ツ)_/¯'
+        }
+        failure {
+            echo 'I failed :('
+        }
+    }
+}
