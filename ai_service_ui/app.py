@@ -1,95 +1,32 @@
-import argparse
-import json
-import pickle
-from logging import DEBUG
+import streamlit as st
 
-import pandas as pd
-from ai_service_ui.logger import logger as logging
-from flask import Flask, jsonify, request
-
-app = Flask(__name__)
-logger = logging.get_logger(__name__)
-logging.get_logger().setLevel(DEBUG)
+from components import header,sidebar,data_space, bus_information, service, license
 
 
-@app.before_first_request
-def activate_job():
-    """Activate function."""
-    global metrics_json
-    global model
+st.set_page_config(page_title='INESDATA-MOV', page_icon='./assets/favicon.ico', layout="wide", initial_sidebar_state="auto", menu_items=None)
 
-    # Función de entrada al script de consola
-    parser = argparse.ArgumentParser()
+def main():
+    # Load custom CSS
+    with open('./ai_service_ui/public/style.css') as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)   
 
-    # Parametro para el fichero de configuración del entorno
-    parser.add_argument("-p", "--pkl_filename", type=str, required=True)
-    parser.add_argument("-m", "--metrics_filename", type=str, required=True)
+    header.header()
+    sidebar.content_sidebar()
 
-    args = parser.parse_args()
+    # Display data space section
+    data_space.introduction()
+    data_space.use_case()
 
-    pkl_filename = args.pkl_filename
-    metrics_filename = args.metrics_filename
+    # Display information section
+    bus_information.introduction()
+    bus_information.stop_map_section()
 
-    metrics_json = get_model_metrics(metrics_filename)
-
-    logger.info("Loading model ")
-
-    # Load from file
-    with open(pkl_filename, "rb") as file:
-        model = pickle.load(file)
-
-    logger.info("Models loaded")
-
-
-def get_model_prediction(data: dict) -> dict:
-    """Return model.
-
-    Args:
-        data (dict): data
-
-    Returns: model
-
-    """
-    global model
-
-    logging.debug("get_prediction(): started.")
-    X = pd.DataFrame(data)
-
-    pred = model.predict(X)
-
-    dictionary = {"species": list(pred)}
-
-    logger.debug("get_prediction(): final model prediction done.")
-
-    return dictionary
-
-
-def get_model_metrics(metrics_filename: json) -> dict:
-    """Return metrics model.
-
-    Args:
-        metrics_filename (json): input json file
-
-    Returns: metrics model
-
-    """
-    with open(metrics_filename) as json_file:
-        data = json.load(json_file)
-    return data
-
-
-@app.route("/predict-values", methods=["POST"])
-def predict_values():
-    """Upload image with base64 format and get car make model and year response."""
-    global metrics_json
-    data = request.get_json()
-
-    preds = get_model_prediction(data)
-
-    output = dict(preds=preds, metrics=metrics_json)
-
-    return jsonify(output)
+    # Display prediction section    
+    service.bus_arrival_predictor()
+    
+    # Display license section
+    license.inesdata_license()
 
 
 if __name__ == "__main__":
-    app.run(debug=True, threaded=False, host="0.0.0.0")
+    main()
