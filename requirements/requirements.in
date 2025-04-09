@@ -1,4 +1,4 @@
-pandas==1.4.0
-pydantic-settings==2.4.0
-streamlit_folium==0.24.0
-streamlit-authenticator==0.4.1
+pydantic-settings==2.8.1
+streamlit==1.44.1
+streamlit-modal==0.1.2
+streamlit-folium==0.24.0

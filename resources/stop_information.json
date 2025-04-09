@@ -1,0 +1,4219 @@
+[
+    {
+        "stop": "29",
+        "name": "Juzgados Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68919516042857,
+                40.4651266846777
+            ]
+        },
+        "lines": [
+            "005",
+            "027",
+            "147",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "30",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68813420813401,
+                40.4662410987267
+            ]
+        },
+        "lines": [
+            "005",
+            "070",
+            "107",
+            "129",
+            "833"
+        ]
+    },
+    {
+        "stop": "33",
+        "name": "Castellana-Rosario Pino",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68953401416295,
+                40.4618499055306
+            ]
+        },
+        "lines": [
+            "005",
+            "027",
+            "147",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "35",
+        "name": "Cuzco",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68972082738504,
+                40.4598938448843
+            ]
+        },
+        "lines": [
+            "005",
+            "027",
+            "147",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "37",
+        "name": "Castellana-San Germán",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69011395962241,
+                40.4557653889151
+            ]
+        },
+        "lines": [
+            "027",
+            "040",
+            "126",
+            "147",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "39",
+        "name": "Castellana-Rafael Salgado",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69023167789544,
+                40.4545890146399
+            ]
+        },
+        "lines": [
+            "027",
+            "040",
+            "126",
+            "147"
+        ]
+    },
+    {
+        "stop": "42",
+        "name": "Lima-Santiago Bernabéu",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69051911738704,
+                40.4515197402062
+            ]
+        },
+        "lines": [
+            "027",
+            "040",
+            "126",
+            "147",
+            "150",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "44",
+        "name": "Santiago Bernabéu",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69036708497747,
+                40.453124246931
+            ]
+        },
+        "lines": [
+            "027",
+            "040",
+            "126",
+            "147",
+            "150"
+        ]
+    },
+    {
+        "stop": "47",
+        "name": "Azca",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.690743512708,
+                40.4493877750635
+            ]
+        },
+        "lines": [
+            "027",
+            "040",
+            "126",
+            "147",
+            "150",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "50",
+        "name": "Nuevos Ministerios-Centro Comercial",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69100631164755,
+                40.4468681926684
+            ]
+        },
+        "lines": [
+            "027",
+            "040",
+            "126",
+            "147",
+            "150",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "52",
+        "name": "Nuevos Ministerios-Castellana",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69114869208245,
+                40.4437817603591
+            ]
+        },
+        "lines": [
+            "007",
+            "014",
+            "027",
+            "040",
+            "147",
+            "150",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "54",
+        "name": "Museo Ciencias Naturales",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69136922174051,
+                40.4411678325366
+            ]
+        },
+        "lines": [
+            "007",
+            "014",
+            "027",
+            "040",
+            "147",
+            "150",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "56",
+        "name": "Gregorio Marañón",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69040015487589,
+                40.4383943354315
+            ]
+        },
+        "lines": [
+            "007",
+            "014",
+            "027",
+            "040",
+            "147",
+            "150",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "60",
+        "name": "Castellana-Rubén Darío",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68807582052125,
+                40.4332505092102
+            ]
+        },
+        "lines": [
+            "005",
+            "014",
+            "027",
+            "045",
+            "150",
+            "501",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "62",
+        "name": "Castellana-Ministerio Interior",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68907087764756,
+                40.4292626043241
+            ]
+        },
+        "lines": [
+            "005",
+            "014",
+            "027",
+            "045",
+            "150",
+            "501",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "65",
+        "name": "Biblioteca Nacional",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69052060156927,
+                40.4238845871756
+            ]
+        },
+        "lines": [
+            "005",
+            "014",
+            "027",
+            "045",
+            "053",
+            "150",
+            "363",
+            "501",
+            "504",
+            "522",
+            "523",
+            "524",
+            "525",
+            "526"
+        ]
+    },
+    {
+        "stop": "66",
+        "name": "Colón",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68987341517404,
+                40.4261316934024
+            ]
+        },
+        "lines": [
+            "005",
+            "014",
+            "027",
+            "045",
+            "150",
+            "501",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "72",
+        "name": "Cibeles-Casa de América",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69214452424823,
+                40.4203613685499
+            ]
+        },
+        "lines": [
+            "005",
+            "014",
+            "027",
+            "037",
+            "045",
+            "053",
+            "150",
+            "363",
+            "501",
+            "504",
+            "522",
+            "524",
+            "525",
+            "526"
+        ]
+    },
+    {
+        "stop": "78",
+        "name": "Neptuno",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69326538812111,
+                40.4156429351348
+            ]
+        },
+        "lines": [
+            "010",
+            "014",
+            "027",
+            "034",
+            "037",
+            "045",
+            "361",
+            "363",
+            "509",
+            "510",
+            "511",
+            "512",
+            "513",
+            "514",
+            "515",
+            "517",
+            "525",
+            "526"
+        ]
+    },
+    {
+        "stop": "82",
+        "name": "Prado-Atocha",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69217764133906,
+                40.4100593263879
+            ]
+        },
+        "lines": [
+            "010",
+            "014",
+            "027",
+            "034",
+            "037",
+            "045",
+            "361",
+            "363",
+            "401",
+            "509",
+            "510",
+            "511",
+            "512",
+            "513",
+            "514",
+            "515",
+            "517",
+            "525",
+            "526"
+        ]
+    },
+    {
+        "stop": "85",
+        "name": "Teatro Circo Price",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69888240252673,
+                40.4059875063721
+            ]
+        },
+        "lines": [
+            "027",
+            "034",
+            "036",
+            "041",
+            "069",
+            "119",
+            "363",
+            "512",
+            "515",
+            "517",
+            "530"
+        ]
+    },
+    {
+        "stop": "86",
+        "name": "Embajadores",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.7024170698747,
+                40.4054345871168
+            ]
+        },
+        "lines": [
+            "027"
+        ]
+    },
+    {
+        "stop": "89",
+        "name": "Delicias-Atocha",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69316123551764,
+                40.4066615336944
+            ]
+        },
+        "lines": [
+            "006"
+        ]
+    },
+    {
+        "stop": "126",
+        "name": "Avenida de Burgos",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67550097154182,
+                40.4792343478384
+            ]
+        },
+        "lines": [
+            "129",
+            "150",
+            "833"
+        ]
+    },
+    {
+        "stop": "128",
+        "name": "San Luis-Avenida de Burgos",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67495168918952,
+                40.4806429478748
+            ]
+        },
+        "lines": [
+            "129",
+            "150"
+        ]
+    },
+    {
+        "stop": "130",
+        "name": "Condado de Treviño",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67259614521114,
+                40.4798008062757
+            ]
+        },
+        "lines": [
+            "129",
+            "150"
+        ]
+    },
+    {
+        "stop": "132",
+        "name": "Serrano Galvache",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67090981959499,
+                40.4774727670749
+            ]
+        },
+        "lines": [
+            "129",
+            "150"
+        ]
+    },
+    {
+        "stop": "134",
+        "name": "San Luis-Arturo Soria",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66851634849031,
+                40.4768424717567
+            ]
+        },
+        "lines": [
+            "029",
+            "125",
+            "129",
+            "150"
+        ]
+    },
+    {
+        "stop": "136",
+        "name": "Arturo Soria-Cultura",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6684272967244,
+                40.4785727056398
+            ]
+        },
+        "lines": [
+            "029",
+            "125",
+            "129",
+            "150"
+        ]
+    },
+    {
+        "stop": "138",
+        "name": "Pinar de Chamartín",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66726530241246,
+                40.4801514710997
+            ]
+        },
+        "lines": [
+            "125",
+            "129",
+            "150"
+        ]
+    },
+    {
+        "stop": "140",
+        "name": "Arturo Soria-M11",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66456003415878,
+                40.4824237736648
+            ]
+        },
+        "lines": [
+            "125",
+            "129",
+            "150"
+        ]
+    },
+    {
+        "stop": "145",
+        "name": "Bambú",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67590851542907,
+                40.4751599213495
+            ]
+        },
+        "lines": [
+            "129",
+            "150",
+            "833"
+        ]
+    },
+    {
+        "stop": "146",
+        "name": "Pío XII-Avenida de Burgos",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67569597864106,
+                40.4731521638426
+            ]
+        },
+        "lines": [
+            "129",
+            "150"
+        ]
+    },
+    {
+        "stop": "203",
+        "name": "Mateo Inurria",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68513420149337,
+                40.4669525814586
+            ]
+        },
+        "lines": [
+            "070",
+            "107",
+            "129"
+        ]
+    },
+    {
+        "stop": "205",
+        "name": "Avenida del Recuerdo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6815446595674,
+                40.4674782698903
+            ]
+        },
+        "lines": [
+            "070",
+            "107",
+            "129"
+        ]
+    },
+    {
+        "stop": "207",
+        "name": "Duque de Pastrana",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67961866029863,
+                40.4676337350591
+            ]
+        },
+        "lines": [
+            "070",
+            "107",
+            "129",
+            "833"
+        ]
+    },
+    {
+        "stop": "208",
+        "name": "Nunciatura",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67524798080748,
+                40.4674295795025
+            ]
+        },
+        "lines": [
+            "070",
+            "107"
+        ]
+    },
+    {
+        "stop": "210",
+        "name": "Caidos División Azul",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67273187213851,
+                40.4665568426751
+            ]
+        },
+        "lines": [
+            "029",
+            "070",
+            "107",
+            "501"
+        ]
+    },
+    {
+        "stop": "212",
+        "name": "Arturo Soria-Añastro",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66613802514417,
+                40.4665679400534
+            ]
+        },
+        "lines": [
+            "007",
+            "070"
+        ]
+    },
+    {
+        "stop": "214",
+        "name": "Arturo Soria-Añastro",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66597122049962,
+                40.4675959226354
+            ]
+        },
+        "lines": [
+            "007",
+            "029",
+            "107",
+            "501"
+        ]
+    },
+    {
+        "stop": "218",
+        "name": "Arturo Soria-López de Hoyos",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66068169967231,
+                40.4595631881383
+            ]
+        },
+        "lines": [
+            "009",
+            "011",
+            "070",
+            "072",
+            "073",
+            "502",
+            "503"
+        ]
+    },
+    {
+        "stop": "220",
+        "name": "Metro Arturo Soria",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65754998553993,
+                40.4568152546627
+            ]
+        },
+        "lines": [
+            "011",
+            "070",
+            "503"
+        ]
+    },
+    {
+        "stop": "222",
+        "name": "Jefatura provincial Tráfico",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65546902005714,
+                40.454534263777
+            ]
+        },
+        "lines": [
+            "011",
+            "070",
+            "122",
+            "503"
+        ]
+    },
+    {
+        "stop": "224",
+        "name": "Arturo Soria-Conservatorio",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65324480659172,
+                40.4519837723668
+            ]
+        },
+        "lines": [
+            "011",
+            "070",
+            "122",
+            "503"
+        ]
+    },
+    {
+        "stop": "226",
+        "name": "Hospital Universitario Vithas",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65161721385567,
+                40.4497947457046
+            ]
+        },
+        "lines": [
+            "011",
+            "070",
+            "503"
+        ]
+    },
+    {
+        "stop": "228",
+        "name": "Arturo Soria-Josefa Valcárcel",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.64905394713218,
+                40.4468271592708
+            ]
+        },
+        "lines": [
+            "070"
+        ]
+    },
+    {
+        "stop": "230",
+        "name": "Arturo Soria-Juan Pérez de Zúñiga",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.64571943086647,
+                40.4448412949917
+            ]
+        },
+        "lines": [
+            "070"
+        ]
+    },
+    {
+        "stop": "232",
+        "name": "Arturo Soria-Marqués de Pico Velasco",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.64395072817575,
+                40.4440808726364
+            ]
+        },
+        "lines": [
+            "070"
+        ]
+    },
+    {
+        "stop": "234",
+        "name": "Arturo Soria-José del Hierro",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.64127684131158,
+                40.4420957078192
+            ]
+        },
+        "lines": [
+            "070"
+        ]
+    },
+    {
+        "stop": "236",
+        "name": "Ciudad Lineal",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.63881383043978,
+                40.4386228280816
+            ]
+        },
+        "lines": [
+            "048",
+            "070"
+        ]
+    },
+    {
+        "stop": "240",
+        "name": "Vital Aza-Albasanz",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.63609102292537,
+                40.4349621307091
+            ]
+        },
+        "lines": [
+            "004",
+            "038",
+            "048",
+            "070",
+            "105"
+        ]
+    },
+    {
+        "stop": "242",
+        "name": "Ascao-Julián Camarillo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.63446554362392,
+                40.4326196887521
+            ]
+        },
+        "lines": [
+            "004",
+            "038",
+            "048",
+            "070"
+        ]
+    },
+    {
+        "stop": "244",
+        "name": "Metro García Noblejas",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.63212542621317,
+                40.4294883296472
+            ]
+        },
+        "lines": [
+            "004",
+            "038",
+            "048",
+            "070",
+            "506"
+        ]
+    },
+    {
+        "stop": "246",
+        "name": "Castillo de Arévalo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.63088333128641,
+                40.4277743746828
+            ]
+        },
+        "lines": [
+            "004",
+            "038",
+            "048",
+            "070"
+        ]
+    },
+    {
+        "stop": "250",
+        "name": "Hermanos García Noblejas-Centro de Salud",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6280403390237,
+                40.4237717895682
+            ]
+        },
+        "lines": [
+            "004",
+            "038",
+            "048",
+            "070",
+            "506"
+        ]
+    },
+    {
+        "stop": "253",
+        "name": "Hermanos García Noblejas-Villaescusa",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.62575903663998,
+                40.4206805173531
+            ]
+        },
+        "lines": [
+            "070",
+            "167"
+        ]
+    },
+    {
+        "stop": "269",
+        "name": "Quintanavides",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66733397983689,
+                40.4970563518681
+            ]
+        },
+        "lines": [
+            "176"
+        ]
+    },
+    {
+        "stop": "271",
+        "name": "Foresta",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66965419396059,
+                40.497628533741
+            ]
+        },
+        "lines": [
+            "176",
+            "833"
+        ]
+    },
+    {
+        "stop": "399",
+        "name": "Federico Mompou-Isabel Colbrand",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67918126545993,
+                40.5108161316913
+            ]
+        },
+        "lines": [
+            "175",
+            "524"
+        ]
+    },
+    {
+        "stop": "497",
+        "name": "Arturo Soria-Julio Dánvila",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66696259386287,
+                40.4712298400711
+            ]
+        },
+        "lines": [
+            "007",
+            "029",
+            "107",
+            "501"
+        ]
+    },
+    {
+        "stop": "499",
+        "name": "Ingenieros Navales",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66752569531464,
+                40.4732986569998
+            ]
+        },
+        "lines": [
+            "007",
+            "029",
+            "107"
+        ]
+    },
+    {
+        "stop": "501",
+        "name": "San Luis-Arturo Soria",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66772372849211,
+                40.4755047108044
+            ]
+        },
+        "lines": [
+            "007",
+            "107",
+            "125",
+            "501"
+        ]
+    },
+    {
+        "stop": "503",
+        "name": "San Luis-Mesena",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66582985842464,
+                40.474794900805
+            ]
+        },
+        "lines": [
+            "007",
+            "107",
+            "125",
+            "501"
+        ]
+    },
+    {
+        "stop": "509",
+        "name": "Alicún",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65937249981808,
+                40.4792012014537
+            ]
+        },
+        "lines": [
+            "007",
+            "029",
+            "129"
+        ]
+    },
+    {
+        "stop": "510",
+        "name": "Vélez Rubio",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66114449057599,
+                40.4782271377917
+            ]
+        },
+        "lines": [
+            "007",
+            "029",
+            "129"
+        ]
+    },
+    {
+        "stop": "1021",
+        "name": "Metro Montecarmelo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69604860367144,
+                40.5048286116298
+            ]
+        },
+        "lines": [
+            "134",
+            "170",
+            "178",
+            "523"
+        ]
+    },
+    {
+        "stop": "1022",
+        "name": "Monasterio Silos-Monasterio Liébana",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69436241834522,
+                40.5067035826473
+            ]
+        },
+        "lines": [
+            "134",
+            "170",
+            "178",
+            "523"
+        ]
+    },
+    {
+        "stop": "1025",
+        "name": "Monasterio Silos-Monasterio Sobrado",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69246513409209,
+                40.5089716789855
+            ]
+        },
+        "lines": [
+            "134",
+            "170",
+            "178",
+            "523"
+        ]
+    },
+    {
+        "stop": "1357",
+        "name": "Herrera Oria-Isla de Arosa",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71900820800631,
+                40.4821344379209
+            ]
+        },
+        "lines": [
+            "049",
+            "064",
+            "083",
+            "133"
+        ]
+    },
+    {
+        "stop": "1360",
+        "name": "Fermín Caballero-Betanzos",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71432682724388,
+                40.4817625238695
+            ]
+        },
+        "lines": [
+            "067",
+            "083",
+            "124",
+            "127",
+            "133"
+        ]
+    },
+    {
+        "stop": "1364",
+        "name": "Parque de La Vaguada",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71149515178612,
+                40.4778790920588
+            ]
+        },
+        "lines": [
+            "049",
+            "083",
+            "128",
+            "132",
+            "137",
+            "522"
+        ]
+    },
+    {
+        "stop": "1366",
+        "name": "Junta Municipal Fuencarral",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70870623340983,
+                40.4784592589866
+            ]
+        },
+        "lines": [
+            "049",
+            "083",
+            "128",
+            "132",
+            "137",
+            "179",
+            "522"
+        ]
+    },
+    {
+        "stop": "1368",
+        "name": "Monforte de Lemos-La Vaguada",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70480093455562,
+                40.4792578711638
+            ]
+        },
+        "lines": [
+            "049",
+            "083",
+            "128",
+            "132",
+            "137",
+            "179",
+            "522"
+        ]
+    },
+    {
+        "stop": "1374",
+        "name": "Narcís Monturiol",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70025668409788,
+                40.4850061262449
+            ]
+        },
+        "lines": [
+            "067",
+            "083"
+        ]
+    },
+    {
+        "stop": "1376",
+        "name": "Barrio de La Paz",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69861265937649,
+                40.4867277573632
+            ]
+        },
+        "lines": [
+            "067",
+            "083"
+        ]
+    },
+    {
+        "stop": "1377",
+        "name": "Fermín Caballero-Sangenjo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.7004260809837,
+                40.4867618436649
+            ]
+        },
+        "lines": [
+            "067",
+            "083"
+        ]
+    },
+    {
+        "stop": "1489",
+        "name": "Cuatro Torres",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68842539124346,
+                40.4754600397673
+            ]
+        },
+        "lines": [
+            "067",
+            "124",
+            "134",
+            "135",
+            "179",
+            "524"
+        ]
+    },
+    {
+        "stop": "1494",
+        "name": "Sinesio Delgado-Ginzo de Limia",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70249782382505,
+                40.4738124477077
+            ]
+        },
+        "lines": [
+            "042"
+        ]
+    },
+    {
+        "stop": "1496",
+        "name": "Sinesio Delgado-Ribadavia",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70460084231764,
+                40.4729798521496
+            ]
+        },
+        "lines": [
+            "042"
+        ]
+    },
+    {
+        "stop": "1498",
+        "name": "Ribadavia",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70819532511741,
+                40.4726335962245
+            ]
+        },
+        "lines": [
+            "042"
+        ]
+    },
+    {
+        "stop": "1500",
+        "name": "Ribadavia-Chantada",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.7109260978742,
+                40.4724006433759
+            ]
+        },
+        "lines": [
+            "042"
+        ]
+    },
+    {
+        "stop": "1501",
+        "name": "Betanzos-Chantada",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71166525170076,
+                40.4735897877292
+            ]
+        },
+        "lines": [
+            "042"
+        ]
+    },
+    {
+        "stop": "1503",
+        "name": "Betanzos-Fernández Almagro",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71123369167493,
+                40.4745834244551
+            ]
+        },
+        "lines": [
+            "042",
+            "049",
+            "126",
+            "128",
+            "522"
+        ]
+    },
+    {
+        "stop": "1505",
+        "name": "Betanzos-La Bañeza",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71154388510909,
+                40.4763112361186
+            ]
+        },
+        "lines": [
+            "042",
+            "049",
+            "126",
+            "128",
+            "147"
+        ]
+    },
+    {
+        "stop": "1507",
+        "name": "La Bañeza-Ponferrada",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71369059064962,
+                40.4764061283685
+            ]
+        },
+        "lines": [
+            "042",
+            "126",
+            "147"
+        ]
+    },
+    {
+        "stop": "1509",
+        "name": "Metro Peñagrande",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71647618485783,
+                40.475906942249
+            ]
+        },
+        "lines": [
+            "042",
+            "132",
+            "137"
+        ]
+    },
+    {
+        "stop": "1511",
+        "name": "La Bañeza-Cándido Mateos",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71823017461405,
+                40.4755447239577
+            ]
+        },
+        "lines": [
+            "042",
+            "132",
+            "137"
+        ]
+    },
+    {
+        "stop": "1515",
+        "name": "César Manrique-La Cabrera",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72044334836971,
+                40.4725760364512
+            ]
+        },
+        "lines": [
+            "042",
+            "127",
+            "132",
+            "521"
+        ]
+    },
+    {
+        "stop": "1517",
+        "name": "Joaquín Lorenzo-Isla Malaita",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72297208899233,
+                40.4731728792795
+            ]
+        },
+        "lines": [
+            "042"
+        ]
+    },
+    {
+        "stop": "1530",
+        "name": "Bravo Murillo-Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69064281030003,
+                40.4658567934625
+            ]
+        },
+        "lines": [
+            "049",
+            "066",
+            "124"
+        ]
+    },
+    {
+        "stop": "1532",
+        "name": "Junta Municipal Tetuán",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69305549976485,
+                40.4653964317191
+            ]
+        },
+        "lines": [
+            "049",
+            "066",
+            "124",
+            "522",
+            "523"
+        ]
+    },
+    {
+        "stop": "1537",
+        "name": "Blanco Argibay-Pinos Baja",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70378818113234,
+                40.4669532980161
+            ]
+        },
+        "lines": [
+            "049",
+            "177",
+            "522"
+        ]
+    },
+    {
+        "stop": "1542",
+        "name": "Piedrafita del Cebrero",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.7121015314059,
+                40.4718213503321
+            ]
+        },
+        "lines": [
+            "049",
+            "126",
+            "128",
+            "522"
+        ]
+    },
+    {
+        "stop": "1544",
+        "name": "Ginzo de Limia-La Vaguada",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70430891219517,
+                40.4800176169722
+            ]
+        },
+        "lines": [
+            "049",
+            "134",
+            "523"
+        ]
+    },
+    {
+        "stop": "1546",
+        "name": "Ginzo de Limia-Sangenjo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70554604975792,
+                40.4831722212408
+            ]
+        },
+        "lines": [
+            "049",
+            "134",
+            "522",
+            "523"
+        ]
+    },
+    {
+        "stop": "1548",
+        "name": "Metro Herrera Oria",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70779264252878,
+                40.4848611952098
+            ]
+        },
+        "lines": [
+            "049",
+            "134"
+        ]
+    },
+    {
+        "stop": "1550",
+        "name": "Herrera Oria-Gómez de la Serna",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.7238411110691,
+                40.4806088340008
+            ]
+        },
+        "lines": [
+            "049",
+            "067"
+        ]
+    },
+    {
+        "stop": "1552",
+        "name": "Gómez de la Serna-Julio Calvo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72271554769428,
+                40.482372609261
+            ]
+        },
+        "lines": [
+            "049"
+        ]
+    },
+    {
+        "stop": "1554",
+        "name": "Metro Lacoma",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72262892936908,
+                40.4853370883238
+            ]
+        },
+        "lines": [
+            "049"
+        ]
+    },
+    {
+        "stop": "1556",
+        "name": "Riscos de Polanco",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72260808066423,
+                40.4866615308454
+            ]
+        },
+        "lines": [
+            "049"
+        ]
+    },
+    {
+        "stop": "1558",
+        "name": "Senda del Infante-Cerro Minguete",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71888336157812,
+                40.487306339615
+            ]
+        },
+        "lines": [
+            "049"
+        ]
+    },
+    {
+        "stop": "1602",
+        "name": "BegoñaHospital La Paz",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68898905847552,
+                40.4806953910896
+            ]
+        },
+        "lines": [
+            "067",
+            "124",
+            "132",
+            "135",
+            "137",
+            "179",
+            "524"
+        ]
+    },
+    {
+        "stop": "1604",
+        "name": "Arzobispo Morcillo-Facultad Medicina",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69131427497509,
+                40.481037382383
+            ]
+        },
+        "lines": [
+            "067",
+            "132"
+        ]
+    },
+    {
+        "stop": "1606",
+        "name": "Julio Palacios",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69377995406315,
+                40.482774871177
+            ]
+        },
+        "lines": [
+            "067",
+            "524"
+        ]
+    },
+    {
+        "stop": "1608",
+        "name": "Pedro Rico-Julio Palacios",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69441459782562,
+                40.4850773544777
+            ]
+        },
+        "lines": [
+            "067"
+        ]
+    },
+    {
+        "stop": "1610",
+        "name": "Pedro Rico-Arzobispo Morcillo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69809941773759,
+                40.4842714141426
+            ]
+        },
+        "lines": [
+            "067"
+        ]
+    },
+    {
+        "stop": "1612",
+        "name": "Fermín Caballero-Patones",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70392726821971,
+                40.4853171942207
+            ]
+        },
+        "lines": [
+            "067",
+            "124",
+            "133",
+            "523"
+        ]
+    },
+    {
+        "stop": "1615",
+        "name": "Colegio Valdeluz",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70926968788283,
+                40.4829602780153
+            ]
+        },
+        "lines": [
+            "067",
+            "124",
+            "127",
+            "133"
+        ]
+    },
+    {
+        "stop": "1617",
+        "name": "Plaza de Cieza",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71179496103609,
+                40.4824312681318
+            ]
+        },
+        "lines": [
+            "067",
+            "124",
+            "127",
+            "133"
+        ]
+    },
+    {
+        "stop": "1619",
+        "name": "Fermín Caballero-Isla de Arosa",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71647899681664,
+                40.4806186012422
+            ]
+        },
+        "lines": [
+            "067",
+            "127",
+            "521"
+        ]
+    },
+    {
+        "stop": "1621",
+        "name": "Fermín Caballero-Islas Cíes",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71950819580347,
+                40.4792304534986
+            ]
+        },
+        "lines": [
+            "067",
+            "127",
+            "521"
+        ]
+    },
+    {
+        "stop": "1623",
+        "name": "Fermín Caballero-Isla de Tabarca",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.7217735361734,
+                40.4781352777808
+            ]
+        },
+        "lines": [
+            "067",
+            "127",
+            "521"
+        ]
+    },
+    {
+        "stop": "1625",
+        "name": "Gómez de la Serna-Colonia El Pino",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72578754529137,
+                40.4816777180202
+            ]
+        },
+        "lines": [
+            "067"
+        ]
+    },
+    {
+        "stop": "1627",
+        "name": "Gómez de la Serna-Alejandro Casona",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72905989237603,
+                40.4831526359266
+            ]
+        },
+        "lines": [
+            "067"
+        ]
+    },
+    {
+        "stop": "1629",
+        "name": "Rosalía de Castro-Gómez de la Serna",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.73166903940307,
+                40.4843884135129
+            ]
+        },
+        "lines": [
+            "067",
+            "082"
+        ]
+    },
+    {
+        "stop": "1631",
+        "name": "Rosalía de Castro-Gabriela Mistral",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.73397082251151,
+                40.4833918673926
+            ]
+        },
+        "lines": [
+            "067"
+        ]
+    },
+    {
+        "stop": "1633",
+        "name": "Rodríguez Castelao-Rosalía de Castro",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.7337333406277,
+                40.4821681586973
+            ]
+        },
+        "lines": [
+            "067",
+            "082"
+        ]
+    },
+    {
+        "stop": "1732",
+        "name": "Monforte de Lemos-Parque Norte",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69159187015038,
+                40.4793420424578
+            ]
+        },
+        "lines": [
+            "134",
+            "137"
+        ]
+    },
+    {
+        "stop": "1734",
+        "name": "Monforte de Lemos-Puentecesures",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69709844675376,
+                40.4798900916591
+            ]
+        },
+        "lines": [
+            "134",
+            "137",
+            "179"
+        ]
+    },
+    {
+        "stop": "1736",
+        "name": "Monforte de Lemos-Parque Bomberos",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70064117690819,
+                40.4802020348529
+            ]
+        },
+        "lines": [
+            "134",
+            "137",
+            "179"
+        ]
+    },
+    {
+        "stop": "1739",
+        "name": "Herrera Oria-Ventisquero de la Condesa",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71421101773562,
+                40.4838848427019
+            ]
+        },
+        "lines": [
+            "134"
+        ]
+    },
+    {
+        "stop": "1741",
+        "name": "La Masó-Saloú",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71416323789093,
+                40.4868265535616
+            ]
+        },
+        "lines": [
+            "134"
+        ]
+    },
+    {
+        "stop": "1743",
+        "name": "Ruber Internacional",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71401313051219,
+                40.4892283586902
+            ]
+        },
+        "lines": [
+            "134"
+        ]
+    },
+    {
+        "stop": "1745",
+        "name": "Cerro del Castañar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71338105334998,
+                40.491979977585
+            ]
+        },
+        "lines": [
+            "133",
+            "134"
+        ]
+    },
+    {
+        "stop": "1749",
+        "name": "La Masó-Moralzarzal",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71102922343294,
+                40.4933232641119
+            ]
+        },
+        "lines": [
+            "133",
+            "134"
+        ]
+    },
+    {
+        "stop": "1751",
+        "name": "La Masó-Nuria",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.7088222964815,
+                40.4947782268745
+            ]
+        },
+        "lines": [
+            "134"
+        ]
+    },
+    {
+        "stop": "1753",
+        "name": "La Masó-Marbella",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70741626822376,
+                40.4951066450816
+            ]
+        },
+        "lines": [
+            "134",
+            "523"
+        ]
+    },
+    {
+        "stop": "1760",
+        "name": "Costa Brava-Fuenfría",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70727458304457,
+                40.4984768454273
+            ]
+        },
+        "lines": [
+            "134",
+            "178"
+        ]
+    },
+    {
+        "stop": "1762",
+        "name": "Costa Brava-La Masó",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70461671248297,
+                40.4971056827401
+            ]
+        },
+        "lines": [
+            "134",
+            "178",
+            "523"
+        ]
+    },
+    {
+        "stop": "1837",
+        "name": "San Luis-Almanzora",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66343266318359,
+                40.473358218643
+            ]
+        },
+        "lines": [
+            "107",
+            "125"
+        ]
+    },
+    {
+        "stop": "1839",
+        "name": "San Luis-Añastro",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65899100264863,
+                40.4711268376853
+            ]
+        },
+        "lines": [
+            "107",
+            "125"
+        ]
+    },
+    {
+        "stop": "1846",
+        "name": "Mar Caspio",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.64800074601742,
+                40.4735402075962
+            ]
+        },
+        "lines": [
+            "009",
+            "072",
+            "107",
+            "502"
+        ]
+    },
+    {
+        "stop": "1848",
+        "name": "Mar de las Antillas-Mar Negro",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.64520251894656,
+                40.4742270020684
+            ]
+        },
+        "lines": [
+            "009",
+            "107"
+        ]
+    },
+    {
+        "stop": "1850",
+        "name": "Mar de las Antillas-Santa Susana",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.64676514261817,
+                40.4760200775872
+            ]
+        },
+        "lines": [
+            "107"
+        ]
+    },
+    {
+        "stop": "1851",
+        "name": "Parque Santa María",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.64621411581386,
+                40.4777303529912
+            ]
+        },
+        "lines": [
+            "107",
+            "502"
+        ]
+    },
+    {
+        "stop": "1852",
+        "name": "Hortaleza",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.64943227574825,
+                40.4788699987929
+            ]
+        },
+        "lines": [
+            "107",
+            "502"
+        ]
+    },
+    {
+        "stop": "1866",
+        "name": "Monte del Gozo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66780888833327,
+                40.5093417770191
+            ]
+        },
+        "lines": [
+            "176"
+        ]
+    },
+    {
+        "stop": "2148",
+        "name": "Duque de Pastrana",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67749438210546,
+                40.4682723083971
+            ]
+        },
+        "lines": [
+            "014",
+            "129"
+        ]
+    },
+    {
+        "stop": "2150",
+        "name": "Marqués de Torroja",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67608584560765,
+                40.4704832345829
+            ]
+        },
+        "lines": [
+            "014",
+            "129"
+        ]
+    },
+    {
+        "stop": "2864",
+        "name": "Monasterio Silos-Monasterio Huelgas",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70639716735655,
+                40.5035091750692
+            ]
+        },
+        "lines": [
+            "134",
+            "170",
+            "178",
+            "523"
+        ]
+    },
+    {
+        "stop": "2968",
+        "name": "Monasterio Silos-Monasterio Montesclaros",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70239026509226,
+                40.5032993282182
+            ]
+        },
+        "lines": [
+            "134",
+            "170",
+            "178",
+            "523"
+        ]
+    },
+    {
+        "stop": "2970",
+        "name": "Monasterio Silos-Avenida Montecarmelo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69876975647785,
+                40.5035014200525
+            ]
+        },
+        "lines": [
+            "134",
+            "170",
+            "178",
+            "523"
+        ]
+    },
+    {
+        "stop": "3245",
+        "name": "Jazmín-Golfo de Salónica",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66238971600639,
+                40.4822650410202
+            ]
+        },
+        "lines": [
+            "129"
+        ]
+    },
+    {
+        "stop": "3247",
+        "name": "Roquetas de Mar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65933923565716,
+                40.4814581342308
+            ]
+        },
+        "lines": [
+            "129"
+        ]
+    },
+    {
+        "stop": "3249",
+        "name": "Mojácar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65724749059608,
+                40.4802763409189
+            ]
+        },
+        "lines": [
+            "129"
+        ]
+    },
+    {
+        "stop": "3252",
+        "name": "Castellana-Hospital La Paz",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68574924475314,
+                40.4788047304563
+            ]
+        },
+        "lines": [
+            "173",
+            "174",
+            "175",
+            "176",
+            "178"
+        ]
+    },
+    {
+        "stop": "3253",
+        "name": "Castellana-Nudo Norte",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68522314635752,
+                40.4805871129625
+            ]
+        },
+        "lines": [
+            "173",
+            "174",
+            "176"
+        ]
+    },
+    {
+        "stop": "3254",
+        "name": "Avenida de Manoteras-Oña",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66973778416439,
+                40.4889209169395
+            ]
+        },
+        "lines": [
+            "174"
+        ]
+    },
+    {
+        "stop": "3256",
+        "name": "Oña-Hospital",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66759967937174,
+                40.4892080390077
+            ]
+        },
+        "lines": [
+            "174"
+        ]
+    },
+    {
+        "stop": "3258",
+        "name": "Oña-Infanta María",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66516072720678,
+                40.489352707397
+            ]
+        },
+        "lines": [
+            "174"
+        ]
+    },
+    {
+        "stop": "3260",
+        "name": "Oña-Centro Deportivo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66207691385653,
+                40.4895820944041
+            ]
+        },
+        "lines": [
+            "174"
+        ]
+    },
+    {
+        "stop": "3261",
+        "name": "Avenida de Burgos-Pi y Margall",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6674330312665,
+                40.4943936422122
+            ]
+        },
+        "lines": [
+            "173",
+            "174",
+            "176"
+        ]
+    },
+    {
+        "stop": "3267",
+        "name": "Avenida de Burgos-Avenida de Manoteras",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67187502250663,
+                40.4890301536452
+            ]
+        },
+        "lines": [
+            "174"
+        ]
+    },
+    {
+        "stop": "3269",
+        "name": "Antonio Robles-Hospital Ramón y Cajal",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69314564817848,
+                40.4859948621954
+            ]
+        },
+        "lines": [
+            "135"
+        ]
+    },
+    {
+        "stop": "3270",
+        "name": "Hospital Ramón y Cajal",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6936634924841,
+                40.4879106635133
+            ]
+        },
+        "lines": [
+            "125",
+            "135",
+            "165",
+            "166"
+        ]
+    },
+    {
+        "stop": "3272",
+        "name": "Begoña-San Modesto",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68923976734717,
+                40.484630806829
+            ]
+        },
+        "lines": [
+            "135"
+        ]
+    },
+    {
+        "stop": "3279",
+        "name": "Montecarmelo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69223918085228,
+                40.5107117482951
+            ]
+        },
+        "lines": [
+            "134",
+            "178",
+            "523"
+        ]
+    },
+    {
+        "stop": "3544",
+        "name": "Félix Candela-Gutiérrez Mellado",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.61988601645972,
+                40.4969012067359
+            ]
+        },
+        "lines": [
+            "171",
+            "174"
+        ]
+    },
+    {
+        "stop": "3566",
+        "name": "Avenida de Burgos-Avenida de Manoteras",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6722933447168,
+                40.4895277211518
+            ]
+        },
+        "lines": [
+            "173",
+            "176"
+        ]
+    },
+    {
+        "stop": "3568",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68964029353992,
+                40.4670249263737
+            ]
+        },
+        "lines": [
+            "042",
+            "124",
+            "147",
+            "179",
+            "524"
+        ]
+    },
+    {
+        "stop": "3578",
+        "name": "Chantada-Cándido Mateos",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71816037458376,
+                40.4734190455752
+            ]
+        },
+        "lines": [
+            "042"
+        ]
+    },
+    {
+        "stop": "3580",
+        "name": "César Manrique-Chantada",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72018264902119,
+                40.4738839561224
+            ]
+        },
+        "lines": [
+            "042"
+        ]
+    },
+    {
+        "stop": "3594",
+        "name": "Avenida de Burgos-Yuca",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67536758747371,
+                40.477694594944
+            ]
+        },
+        "lines": [
+            "129",
+            "150"
+        ]
+    },
+    {
+        "stop": "3603",
+        "name": "Pi y Margall-Ana de Austria",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66494601120217,
+                40.4940205698568
+            ]
+        },
+        "lines": [
+            "173",
+            "501"
+        ]
+    },
+    {
+        "stop": "3605",
+        "name": "Pi y Margall-Isabel de Valois",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6619911083271,
+                40.4921501325296
+            ]
+        },
+        "lines": [
+            "173",
+            "501"
+        ]
+    },
+    {
+        "stop": "3620",
+        "name": "Travesía Costa Brava",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70013492981509,
+                40.4954842460576
+            ]
+        },
+        "lines": [
+            "178"
+        ]
+    },
+    {
+        "stop": "3621",
+        "name": "Centro Universitario Villanueva",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70172209969081,
+                40.4956548134797
+            ]
+        },
+        "lines": [
+            "178"
+        ]
+    },
+    {
+        "stop": "3623",
+        "name": "Paco de Lucía",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70853369931991,
+                40.499252920144
+            ]
+        },
+        "lines": [
+            "134",
+            "170",
+            "178",
+            "523"
+        ]
+    },
+    {
+        "stop": "3634",
+        "name": "Monasterio Huelgas-Monasterio Paular",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70692242005955,
+                40.501753735844
+            ]
+        },
+        "lines": [
+            "134",
+            "178"
+        ]
+    },
+    {
+        "stop": "3664",
+        "name": "Samaranch-Fernando Higueras",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.61379612232401,
+                40.4866364196124
+            ]
+        },
+        "lines": [
+            "171",
+            "174"
+        ]
+    },
+    {
+        "stop": "3670",
+        "name": "Hospital Ramón y Cajal",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69695548827421,
+                40.4877557561235
+            ]
+        },
+        "lines": [
+            "175",
+            "178"
+        ]
+    },
+    {
+        "stop": "3671",
+        "name": "Santo Domingo Calzada-Castiello de Jaca",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67700429822786,
+                40.5082523378111
+            ]
+        },
+        "lines": [
+            "176"
+        ]
+    },
+    {
+        "stop": "3683",
+        "name": "Marqués de Viana",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70593914666604,
+                40.4643816559469
+            ]
+        },
+        "lines": [
+            "177"
+        ]
+    },
+    {
+        "stop": "3733",
+        "name": "Joaquín Lorenzo-Doctor Castroviejo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72363274033981,
+                40.4741372129953
+            ]
+        },
+        "lines": [
+            "042",
+            "064",
+            "520"
+        ]
+    },
+    {
+        "stop": "3769",
+        "name": "Valcarlos-San Millán de la Cogolla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66700231045058,
+                40.5029005498338
+            ]
+        },
+        "lines": [
+            "175"
+        ]
+    },
+    {
+        "stop": "3771",
+        "name": "San Millán de la Cogolla-Atapuerca",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66936858986686,
+                40.5034859843842
+            ]
+        },
+        "lines": [
+            "175"
+        ]
+    },
+    {
+        "stop": "3778",
+        "name": "Camino de Santiago-Valcarlos",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67353202606525,
+                40.4968853226277
+            ]
+        },
+        "lines": [
+            "176"
+        ]
+    },
+    {
+        "stop": "3790",
+        "name": "Castiello de Jaca-Puente la Reina",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6758443689571,
+                40.5029258402936
+            ]
+        },
+        "lines": [
+            "176"
+        ]
+    },
+    {
+        "stop": "3794",
+        "name": "Santo Domingo de la Calzada-Rabanal",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6725054841002,
+                40.5087785565862
+            ]
+        },
+        "lines": [
+            "176"
+        ]
+    },
+    {
+        "stop": "3821",
+        "name": "Joaquín Lorenzo-Avenida Ilustración",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72477794981864,
+                40.4744588747673
+            ]
+        },
+        "lines": [
+            "042",
+            "064",
+            "137",
+            "520"
+        ]
+    },
+    {
+        "stop": "3822",
+        "name": "Metro Mirasierra",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71608632774561,
+                40.4903146402645
+            ]
+        },
+        "lines": [
+            "049"
+        ]
+    },
+    {
+        "stop": "3823",
+        "name": "Ventisquero de la Condesa-Clínica CEMTRO",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71744049148619,
+                40.4942431526682
+            ]
+        },
+        "lines": [
+            "049"
+        ]
+    },
+    {
+        "stop": "3826",
+        "name": "Castellana-Ravel",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68721993909491,
+                40.4722104636438
+            ]
+        },
+        "lines": [
+            "067",
+            "124",
+            "134",
+            "135",
+            "147",
+            "179",
+            "524"
+        ]
+    },
+    {
+        "stop": "3870",
+        "name": "Camino de Santiago-San Millán Cogolla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67241371644728,
+                40.5055674131902
+            ]
+        },
+        "lines": [
+            "175",
+            "524"
+        ]
+    },
+    {
+        "stop": "3872",
+        "name": "Valcarlos-Tierra de Melide",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66353161663113,
+                40.5062312723226
+            ]
+        },
+        "lines": [
+            "176"
+        ]
+    },
+    {
+        "stop": "3874",
+        "name": "Tierra de Melide-Atapuerca",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66532717655704,
+                40.5075813121689
+            ]
+        },
+        "lines": [
+            "176"
+        ]
+    },
+    {
+        "stop": "3918",
+        "name": "Carretera de Colmenar-Badalona",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69885502297453,
+                40.4929694822802
+            ]
+        },
+        "lines": [
+            "175",
+            "178"
+        ]
+    },
+    {
+        "stop": "4033",
+        "name": "Samaranch-Fernández Ordoñez",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.61045530831076,
+                40.4918477426858
+            ]
+        },
+        "lines": [
+            "171",
+            "174"
+        ]
+    },
+    {
+        "stop": "4230",
+        "name": "Hermanos García Noblejas-Alsacia",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.62427665026197,
+                40.4186389552773
+            ]
+        },
+        "lines": [
+            "070",
+            "167"
+        ]
+    },
+    {
+        "stop": "4264",
+        "name": "Paseo de la Dirección-Jaramagos",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70475054998678,
+                40.470051030319
+            ]
+        },
+        "lines": [
+            "049",
+            "522"
+        ]
+    },
+    {
+        "stop": "4266",
+        "name": "Samaranch-Fina de Calderón",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.61765007972632,
+                40.4942465084459
+            ]
+        },
+        "lines": [
+            "171",
+            "174"
+        ]
+    },
+    {
+        "stop": "4268",
+        "name": "Gutiérrez Mellado-Secundino Zuazo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.61985944266301,
+                40.4952527125937
+            ]
+        },
+        "lines": [
+            "171",
+            "174",
+            "502"
+        ]
+    },
+    {
+        "stop": "4273",
+        "name": "Arroyo del Monte-Ventisquero Condesa",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72026967358568,
+                40.4954462896924
+            ]
+        },
+        "lines": [
+            "049",
+            "170"
+        ]
+    },
+    {
+        "stop": "4354",
+        "name": "Blanco Argibay-Paseo de la Dirección",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70799792426646,
+                40.468292486815
+            ]
+        },
+        "lines": [
+            "049",
+            "522"
+        ]
+    },
+    {
+        "stop": "4366",
+        "name": "Fuerzas Armadas-Pi y Margall",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.64154858934957,
+                40.4847742766954
+            ]
+        },
+        "lines": [
+            "174",
+            "831"
+        ]
+    },
+    {
+        "stop": "4382",
+        "name": "Isabel Colbrand-Palas de Rey",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67367933000207,
+                40.5120059277789
+            ]
+        },
+        "lines": [
+            "175"
+        ]
+    },
+    {
+        "stop": "4495",
+        "name": "Las Tablas Sur",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66490054642598,
+                40.5057234228628
+            ]
+        },
+        "lines": [
+            "176"
+        ]
+    },
+    {
+        "stop": "4501",
+        "name": "Isabel Colbrand-Molinaseca",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67659335053729,
+                40.5108583142162
+            ]
+        },
+        "lines": [
+            "175"
+        ]
+    },
+    {
+        "stop": "4502",
+        "name": "Glorieta de Lalín",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67047458422562,
+                40.511155175627
+            ]
+        },
+        "lines": [
+            "175"
+        ]
+    },
+    {
+        "stop": "4508",
+        "name": "Las Tablas Norte",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66572857358462,
+                40.5043763354974
+            ]
+        },
+        "lines": [
+            "175"
+        ]
+    },
+    {
+        "stop": "4651",
+        "name": "Monforte de Lemos-Polideportivo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69413410468,
+                40.4796015999372
+            ]
+        },
+        "lines": [
+            "134",
+            "137",
+            "179"
+        ]
+    },
+    {
+        "stop": "4708",
+        "name": "Hermanos García Noblejas-Gandhi",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.62951328485121,
+                40.4259620016912
+            ]
+        },
+        "lines": [
+            "004",
+            "038",
+            "048",
+            "070",
+            "109",
+            "506"
+        ]
+    },
+    {
+        "stop": "4731",
+        "name": "Pradera de Corralillos",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71835430484661,
+                40.4883186239053
+            ]
+        },
+        "lines": [
+            "049"
+        ]
+    },
+    {
+        "stop": "4732",
+        "name": "Juanita Cruz-María de Maeztu",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72219888106474,
+                40.4959387674438
+            ]
+        },
+        "lines": [
+            "049",
+            "170"
+        ]
+    },
+    {
+        "stop": "4734",
+        "name": "Estación de Pitis",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72548117440251,
+                40.4954002281084
+            ]
+        },
+        "lines": [
+            "049"
+        ]
+    },
+    {
+        "stop": "4736",
+        "name": "Ventisquero de la Condesa-Valle Enmedio",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71632160000956,
+                40.4886825692264
+            ]
+        },
+        "lines": [
+            "049"
+        ]
+    },
+    {
+        "stop": "4741",
+        "name": "Metro Herrera Oria",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70669079348852,
+                40.4845345966269
+            ]
+        },
+        "lines": [
+            "067",
+            "124",
+            "133"
+        ]
+    },
+    {
+        "stop": "4752",
+        "name": "Santa Adela",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.64711266835863,
+                40.4790451474972
+            ]
+        },
+        "lines": [
+            "107"
+        ]
+    },
+    {
+        "stop": "4777",
+        "name": "Peña del Águila",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72521051393167,
+                40.4860011166961
+            ]
+        },
+        "lines": [
+            "049"
+        ]
+    },
+    {
+        "stop": "4968",
+        "name": "Mirasierra",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71299861790785,
+                40.4940363676792
+            ]
+        },
+        "lines": [
+            "133",
+            "134"
+        ]
+    },
+    {
+        "stop": "5016",
+        "name": "Avenida de Asturias-Cañaveral",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69404454322674,
+                40.468593194142
+            ]
+        },
+        "lines": [
+            "042",
+            "523"
+        ]
+    },
+    {
+        "stop": "5018",
+        "name": "Metro La Ventilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69613386435265,
+                40.470085146494
+            ]
+        },
+        "lines": [
+            "042",
+            "523"
+        ]
+    },
+    {
+        "stop": "5020",
+        "name": "Avenida de Asturias-Pinos Baja",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69887622164272,
+                40.4720460902555
+            ]
+        },
+        "lines": [
+            "042",
+            "177",
+            "523"
+        ]
+    },
+    {
+        "stop": "5133",
+        "name": "Manoteras",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.66260227625978,
+                40.4766107048867
+            ]
+        },
+        "lines": [
+            "129"
+        ]
+    },
+    {
+        "stop": "5267",
+        "name": "Barrio Peñagrande",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.73259811430002,
+                40.4813555366315
+            ]
+        },
+        "lines": [
+            "067"
+        ]
+    },
+    {
+        "stop": "5329",
+        "name": "Reales Academias-IMSERSO",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70470193807602,
+                40.4812179187581
+            ]
+        },
+        "lines": [
+            "049",
+            "134"
+        ]
+    },
+    {
+        "stop": "5333",
+        "name": "Emilio Castelar",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68851551235673,
+                40.4358334836851
+            ]
+        },
+        "lines": [
+            "014",
+            "027",
+            "045",
+            "150",
+            "501",
+            "522",
+            "524"
+        ]
+    },
+    {
+        "stop": "5395",
+        "name": "Pi y Margall-Blasco Ibáñez",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65828778294329,
+                40.489824420646
+            ]
+        },
+        "lines": [
+            "174"
+        ]
+    },
+    {
+        "stop": "5443",
+        "name": "Cibeles-Ayuntamiento",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69299597589165,
+                40.4187211357625
+            ]
+        },
+        "lines": [
+            "014",
+            "027",
+            "037",
+            "045",
+            "363",
+            "509",
+            "510",
+            "511",
+            "525"
+        ]
+    },
+    {
+        "stop": "5458",
+        "name": "Ciudad Lineal",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.63781034322779,
+                40.4372409686658
+            ]
+        },
+        "lines": [
+            "038",
+            "048",
+            "070",
+            "105"
+        ]
+    },
+    {
+        "stop": "5511",
+        "name": "Museo del Prado-Jardín Botánico",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69282667053935,
+                40.4130869912528
+            ]
+        },
+        "lines": [
+            "010",
+            "014",
+            "027",
+            "034",
+            "037",
+            "045",
+            "361",
+            "363",
+            "509",
+            "510",
+            "511",
+            "512",
+            "513",
+            "514",
+            "515",
+            "517",
+            "525",
+            "526"
+        ]
+    },
+    {
+        "stop": "5517",
+        "name": "Sanchinarro",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65807454668805,
+                40.5002895086891
+            ]
+        },
+        "lines": [
+            "173"
+        ]
+    },
+    {
+        "stop": "5518",
+        "name": "Alcalá Zamora-María Tudor",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65840750725333,
+                40.5000173477443
+            ]
+        },
+        "lines": [
+            "173"
+        ]
+    },
+    {
+        "stop": "5602",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68928482790594,
+                40.4667252428371
+            ]
+        },
+        "lines": [
+            "027"
+        ]
+    },
+    {
+        "stop": "5603",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68891897404367,
+                40.4672499405299
+            ]
+        },
+        "lines": [
+            "070"
+        ]
+    },
+    {
+        "stop": "5604",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68887833117715,
+                40.4673853168706
+            ]
+        },
+        "lines": [
+            "135"
+        ]
+    },
+    {
+        "stop": "5605",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6888090264095,
+                40.4676019444217
+            ]
+        },
+        "lines": [
+            "067"
+        ]
+    },
+    {
+        "stop": "5606",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68876875058414,
+                40.4677733543976
+            ]
+        },
+        "lines": [
+            "129",
+            "177"
+        ]
+    },
+    {
+        "stop": "5607",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68870538876845,
+                40.4679944510007
+            ]
+        },
+        "lines": [
+            "176"
+        ]
+    },
+    {
+        "stop": "5608",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68867096549695,
+                40.4681252857718
+            ]
+        },
+        "lines": [
+            "175"
+        ]
+    },
+    {
+        "stop": "5609",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68863027570346,
+                40.4682561578037
+            ]
+        },
+        "lines": [
+            "178"
+        ]
+    },
+    {
+        "stop": "5610",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68859004621175,
+                40.4683960360462
+            ]
+        },
+        "lines": [
+            "134"
+        ]
+    },
+    {
+        "stop": "5611",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68906147276499,
+                40.4677400811762
+            ]
+        },
+        "lines": [
+            "042",
+            "049"
+        ]
+    },
+    {
+        "stop": "5612",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68899248885532,
+                40.4680242741573
+            ]
+        },
+        "lines": [
+            "173",
+            "174"
+        ]
+    },
+    {
+        "stop": "5632",
+        "name": "Pinos Alta-Bravo Murillo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69512248664828,
+                40.4653389948679
+            ]
+        },
+        "lines": [
+            "049",
+            "522"
+        ]
+    },
+    {
+        "stop": "5633",
+        "name": "Veza",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69758612287712,
+                40.4662115597551
+            ]
+        },
+        "lines": [
+            "049",
+            "522"
+        ]
+    },
+    {
+        "stop": "5634",
+        "name": "Plátano",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69961355821503,
+                40.4676362554151
+            ]
+        },
+        "lines": [
+            "049",
+            "522"
+        ]
+    },
+    {
+        "stop": "5635",
+        "name": "Arroyo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70082258243356,
+                40.468836143699
+            ]
+        },
+        "lines": [
+            "049",
+            "522"
+        ]
+    },
+    {
+        "stop": "5636",
+        "name": "Arroyo-Paseo de la Dirección",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70230412920947,
+                40.4698992316696
+            ]
+        },
+        "lines": [
+            "049",
+            "522"
+        ]
+    },
+    {
+        "stop": "5722",
+        "name": "Plaza Castilla",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68893516316517,
+                40.4682588484016
+            ]
+        },
+        "lines": [
+            "107"
+        ]
+    },
+    {
+        "stop": "5747",
+        "name": "Alsacia",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.62321678510012,
+                40.4178698832209
+            ]
+        },
+        "lines": [
+            "070"
+        ]
+    },
+    {
+        "stop": "5798",
+        "name": "San Aquilino",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69000026166623,
+                40.4685227743772
+            ]
+        },
+        "lines": [
+            "177"
+        ]
+    },
+    {
+        "stop": "5799",
+        "name": "Plaza del Este",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.68955284027964,
+                40.4717821799523
+            ]
+        },
+        "lines": [
+            "177"
+        ]
+    },
+    {
+        "stop": "5800",
+        "name": "Matilde Landa",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69175182142495,
+                40.4724267155562
+            ]
+        },
+        "lines": [
+            "177"
+        ]
+    },
+    {
+        "stop": "5801",
+        "name": "Plaza del Norte",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69428862133872,
+                40.4733304433867
+            ]
+        },
+        "lines": [
+            "177"
+        ]
+    },
+    {
+        "stop": "5802",
+        "name": "Nador",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69583237795608,
+                40.4719518134723
+            ]
+        },
+        "lines": [
+            "177"
+        ]
+    },
+    {
+        "stop": "5803",
+        "name": "Sorolla-Avenida de Asturias",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.69665517440893,
+                40.4710189424331
+            ]
+        },
+        "lines": [
+            "177"
+        ]
+    },
+    {
+        "stop": "5804",
+        "name": "Paseo de la Dirección-Molina",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70186206831704,
+                40.4716316324282
+            ]
+        },
+        "lines": [
+            "177"
+        ]
+    },
+    {
+        "stop": "5805",
+        "name": "Paseo de la Dirección-Cantueso",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70307117226099,
+                40.4698540355577
+            ]
+        },
+        "lines": [
+            "177"
+        ]
+    },
+    {
+        "stop": "5806",
+        "name": "Plaza Calicanto",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70456851220139,
+                40.4680791762644
+            ]
+        },
+        "lines": [
+            "177"
+        ]
+    },
+    {
+        "stop": "5807",
+        "name": "Robledo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.70432874530071,
+                40.464670742535
+            ]
+        },
+        "lines": [
+            "177"
+        ]
+    },
+    {
+        "stop": "5887",
+        "name": "Félix Candela",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6152760217442,
+                40.4968897596822
+            ]
+        },
+        "lines": [
+            "171",
+            "174",
+            "502"
+        ]
+    },
+    {
+        "stop": "5892",
+        "name": "Samaranch-Pérez Pita",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.61148507723098,
+                40.4889774621158
+            ]
+        },
+        "lines": [
+            "171",
+            "174",
+            "502"
+        ]
+    },
+    {
+        "stop": "5894",
+        "name": "Samaranch-Josefina Aldecoa",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.61495244538922,
+                40.4942833893129
+            ]
+        },
+        "lines": [
+            "171",
+            "174",
+            "502"
+        ]
+    },
+    {
+        "stop": "5899",
+        "name": "Fuerzas Armadas-Francisco Umbral",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.62278072966422,
+                40.4821605417564
+            ]
+        },
+        "lines": [
+            "171",
+            "174",
+            "831"
+        ]
+    },
+    {
+        "stop": "5911",
+        "name": "Valdebebas Cercanías",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.61737442176344,
+                40.4828966960279
+            ]
+        },
+        "lines": [
+            "171",
+            "174",
+            "502"
+        ]
+    },
+    {
+        "stop": "5915",
+        "name": "Fuerzas Armadas-Maestra Dolores Marco",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.62787615810085,
+                40.4834528369709
+            ]
+        },
+        "lines": [
+            "174",
+            "831"
+        ]
+    },
+    {
+        "stop": "5917",
+        "name": "Fuerzas Armadas-Maragatería",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.63211077742377,
+                40.4860018540641
+            ]
+        },
+        "lines": [
+            "174",
+            "831"
+        ]
+    },
+    {
+        "stop": "5919",
+        "name": "Fuerzas Armadas-Parque Valdebebas",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.6367312115631,
+                40.4859089703539
+            ]
+        },
+        "lines": [
+            "174",
+            "831"
+        ]
+    },
+    {
+        "stop": "5926",
+        "name": "Ana de Austria-Princesa de Éboli",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.65823820589689,
+                40.4934372867992
+            ]
+        },
+        "lines": [
+            "173",
+            "501",
+            "831"
+        ]
+    },
+    {
+        "stop": "5982",
+        "name": "Herrera Oria-Roda de Bará",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.71134253292476,
+                40.4845286266585
+            ]
+        },
+        "lines": [
+            "049",
+            "134"
+        ]
+    },
+    {
+        "stop": "5984",
+        "name": "Castiello de Jaca-Burguete",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.67641821136332,
+                40.5043188702792
+            ]
+        },
+        "lines": [
+            "176"
+        ]
+    },
+    {
+        "stop": "5996",
+        "name": "López Ibor-Joaquín Lorenzo",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.72900336440344,
+                40.4740945058249
+            ]
+        },
+        "lines": [
+            "042",
+            "064",
+            "137",
+            "520"
+        ]
+    },
+    {
+        "stop": "51022",
+        "name": "Valdebebas",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.60945291644566,
+                40.4982493748987
+            ]
+        },
+        "lines": [
+            "171",
+            "174",
+            "502"
+        ]
+    },
+    {
+        "stop": "51023",
+        "name": "César Cort Botí-Leandro Silva",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -3.61238911194092,
+                40.4981482981223
+            ]
+        },
+        "lines": [
+            "171",
+            "174",
+            "502"
+        ]
+    }
+]
