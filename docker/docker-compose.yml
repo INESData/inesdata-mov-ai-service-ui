@@ -1,0 +1,12 @@
+version: "2"
+
+services:
+  streamlit_app:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    command: streamlit run run.py --server.address=0.0.0.0
+    environment:
+      - PYTHONUNBUFFERED=1
