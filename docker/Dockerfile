@@ -1,37 +1,47 @@
+FROM python:3.11-slim
 
-#
-# ------ Docker App ------
-FROM ubuntu:18.04
+LABEL maintainer="GMV"
+LABEL org.opencontainers.image.title="ai-service-ui"
+LABEL org.opencontainers.image.description="Servicio de IA para proyecto INESADATA-MOV"
+LABEL org.opencontainers.image.vendor="GMV"
 
-LABEL maintainer="GMV BDA"
-
-# Set environment variables
-ENV DEBIAN_FRONTEND noninteractive
-ENV PYTHONDONTWRITEBYTECODE 1
-ENV PYTHONUNBUFFERED 1
-ENV PYTHONPATH "${PYTHONPATH}:/app"
-
-# Create a working directory
-COPY  ./ /app/
-WORKDIR /app/
-
-# Install packages needed
-RUN apt-get update && apt-get install -y --no-install-recommends \
+# Install dependencies
+RUN --mount=type=cache,id=apt-dev,target=/var/cache/apt \
+    set -x \
+    # && apt-get update && apt-get install -y --no-install-recommends \
+    && apt-get update && apt-get install -y git \
     build-essential \
-    python3-pip \
-    python3-tk \
-    python3.6 \
-    python3.6-dev \
-    python3-setuptools \
-    libsm6 \
-    libxext6 \
-    libxrender-dev \
-    default-libmysqlclient-dev \
-    openjdk-11-jre-headless && \
-    rm -rf /var/lib/apt/lists/* && \
-    # Install python requirements
-    pip3 install --no-cache-dir -r requirements.txt &&
+    && rm -rf /var/lib/apt/lists/*
 
-EXPOSE 5000
+# Allow build time variables via --build-arg
+ARG PIP_URL
 
-CMD python3.6 app/app.py metrics_filename=metrics/metrics_train.json --pkl_filename=models/model.pkl
+# System env vars
+ENV USER_NAME=aiserviceui \
+    APP_HOME=/ai_service_ui \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
+
+ENV PATH="$APP_HOME/venv/bin:$PATH"
+ENV PYTHONPATH "${APP_HOME}:/"
+WORKDIR $APP_HOME
+
+# Install requirements
+COPY requirements/requirements.txt requirements/requirements.txt
+RUN --mount=type=cache,mode=0755,target=/root/.cache/pip \
+    pip install --no-cache-dir pip==24.2 \
+    && pip install --no-cache-dir -r requirements/requirements.txt
+
+# Add our user and group first to make sure their IDs get assigned consistently
+RUN groupadd -r ${USER_NAME} && useradd -r -m -g ${USER_NAME} ${USER_NAME}
+RUN mkdir -p ${APP_HOME}/logs && chmod 777 ${APP_HOME}/logs
+
+COPY --chown=${USER_NAME}:0 --chmod=755 .${APP_HOME} .
+
+# User by default
+USER ${USER_NAME}
+
+# Define the port of the container
+EXPOSE 80
+
+CMD ["sh", "-c", "streamlit run run.py --server.address=0.0.0.0"]
