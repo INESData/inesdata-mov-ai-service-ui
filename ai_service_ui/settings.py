@@ -42,7 +42,6 @@ class Settings(BaseSettings):
     asset_id_prediction:str = "bus_arrival_prediction"
     contract_id_license:str = "68c03a2b-d0cd-476f-999f-a74aabaf646a"
     asset_id_license:str = "license"
-
     client_id: str = "dataspace-users"
     grant_type: str = "password"
 

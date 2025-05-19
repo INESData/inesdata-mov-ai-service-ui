@@ -15,7 +15,6 @@ def logout():
             "client_id": settings.client_id,  # Required for public clients
             "post_logout_redirect_uri": settings.redirect_uri,  # Redirect after logout
         }
-
         # Build the logout URL
         full_logout_url = f"{logout_url}?{urllib.parse.urlencode(params)}"
 
@@ -43,7 +42,6 @@ def header():
             """,
             unsafe_allow_html=True,
         )
-
         if "token" in st.session_state:
             if st.button("Logout"):
                 logout()

@@ -20,7 +20,7 @@ IMAGE_VERSION = $(or ${IMAGE_VERSION.${BRANCH_NAME}}, latest)
 # ***********************
 
 # ** Python
-PYTHON_VERSION ?= python3.8
+PYTHON_VERSION ?= python3.11
 PYTHON ?= $(if $(PYTHON_VERSION),"$(shell which $(PYTHON_VERSION))","$(shell which python)")
 
 # ** Requirements
