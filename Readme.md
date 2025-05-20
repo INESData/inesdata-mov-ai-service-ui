@@ -1,9 +1,7 @@
 ai-service-ui
 ==============================
 
-A short summary
-
-ai service ui
+This repository contains the functions for building a User Interface that explains the INESDATA-MOV project and retrieves bus arrival time predictions. It also includes documentation on the licenses for the databases used to provide the prediction data.
 
 ## Getting Started
 
