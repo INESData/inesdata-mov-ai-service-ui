@@ -30,6 +30,14 @@ This section shows a way to configure a development environment.
     python3.11 -m venv venv
     source venv/bin/activate
     ```
+
+3. Install the requirements.
+
+    ```bash
+    pip install -r requirements/requirements.txt
+    pip install -r requirements/requirements_dev.txt
+    ```
+
 ### Compile requirements
 
   We use **pip-tools** for freeze the requirements, if any package is updated the requirements need to be compiled again with pip-compile.
