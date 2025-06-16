@@ -21,27 +21,26 @@ class Settings(BaseSettings):
     stop_per_lines:str = os.path.join(resources_path, "stop_per_line.json")
 
     # Data space components
-    api_key: str = "e54d4431-5dab-474e-b71a-0db1fcb9e659"
+    api_key: str = <THE API KEY APPEARS IN AI-SERVICE SETTINGS>
 
-    auth_url: str = "https://auth.ds.inesdata-project.eu/realms/mobility/protocol/openid-connect/token"
-    keycloak_base_url: str = "https://auth.ds.inesdata-project.eu/realms/mobility"
+    auth_url: str = <DATA SPACE LOGIN URL>
+    keycloak_base_url: str = <DATA SPACE KEYCLOACK BASE URL>
 
-    license_api_url: str = "https://conn-gmv-mobility.ds.inesdata-project.eu/public/"
-    prediction_api_url: str =  "https://conn-gmv-mobility.ds.inesdata-project.eu/public/{stop_id}/arrives/{line_id}"
+    license_api_url: str = <DATA SPACE TRANSFER ENDPOINT ASSET: LICENCIA>
+    prediction_api_url: str = <DATA SPACE TRANSFER ENDPOINT ASSET: PREDICTION API>
 
     redirect_uri: str = "http://localhost:8501"
 
-    start_transfer_url: str = "https://conn-ses-mobility.ds.inesdata-project.eu/management/v3/transferprocesses"
-    get_transfer_url: str = "https://conn-ses-mobility.ds.inesdata-project.eu/management/v1/edrs/{transfer_id}/dataaddress"
+    start_transfer_url: str = <DATA SPACE START TRANSFER URL>
+    get_transfer_url: str = <DATA SPACE GET TRANSFER URL>
+    counter_party_address: str = <DATA SPACE COUNTER PARTY ADDRESS URL>
+    vocabulary: str = <DATA SPACE VOCABULARY URL>
 
-    counter_party_address: str = "https://conn-gmv-mobility.ds.inesdata-project.eu/protocol"
-    vocabulary: str = "https://w3id.org/edc/v0.0.1/ns/"
-
-    connector_id:str = "conn-ses"
-    contract_id_prediction:str = "eb02a4eb-e7fe-481f-9c49-6dca8d582f13"
-    asset_id_prediction:str = "bus_arrival_prediction"
-    contract_id_license:str = "68c03a2b-d0cd-476f-999f-a74aabaf646a"
-    asset_id_license:str = "license"
+    connector_id:str = <CONNECTOR ID>
+    contract_id_prediction:str = <DATA SPACE CONTRACT ID ASSET: PREDCITION API>
+    asset_id_prediction:str = <DATA SPACE NAME ASSET: PREDCITION API>
+    contract_id_license:str = <DATA SPACE CONTRACT ID ASSET: LICENSE>
+    asset_id_license:str = <DATA SPACE NAME ASSET: LICENSE>
     client_id: str = "dataspace-users"
     grant_type: str = "password"
 
