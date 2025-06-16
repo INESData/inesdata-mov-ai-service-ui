@@ -37,6 +37,32 @@ This section shows a way to configure a development environment.
     pip install -r requirements/requirements.txt
     pip install -r requirements/requirements_dev.txt
     ```
+3. Fill settings.py with data space components. The structure must be the following: 
+
+    ```
+    api_key: str = <THE API KEY APPEARS IN AI-SERVICE SETTINGS>
+
+    auth_url: str = <DATA SPACE LOGIN URL>
+    keycloak_base_url: str = <DATA SPACE KEYCLOACK BASE URL>
+
+    license_api_url: str = <DATA SPACE TRANSFER ENDPOINT ASSET: LICENCIA>
+    prediction_api_url: str = <DATA SPACE TRANSFER ENDPOINT ASSET: PREDICTION API>
+
+    redirect_uri: str = "http://localhost:8501"
+
+    start_transfer_url: str = <DATA SPACE START TRANSFER URL>
+    get_transfer_url: str = <DATA SPACE GET TRANSFER URL>
+    counter_party_address: str = <DATA SPACE COUNTER PARTY ADDRESS URL>
+    vocabulary: str = <DATA SPACE VOCABULARY URL>
+
+    connector_id:str = <CONNECTOR ID>
+    contract_id_prediction:str = <DATA SPACE CONTRACT ID ASSET: PREDCITION API>
+    asset_id_prediction:str = <DATA SPACE NAME ASSET: PREDCITION API>
+    contract_id_license:str = <DATA SPACE CONTRACT ID ASSET: LICENSE>
+    asset_id_license:str = <DATA SPACE NAME ASSET: LICENSE>
+    client_id: str = "dataspace-users"
+    grant_type: str = "password"
+    ```
 
 ### Compile requirements
 
